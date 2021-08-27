@@ -36,12 +36,19 @@
         text-decoration: none;
         padding: 22px 22px;
       }
+      h2 {
+        animation: colour-change 2s infinite;
+      }
+      @keyframes colour-change {
+        0% { color: white; }
+        50% { color: red; }
+        100% { color: white; }
+      }
   </style>
   </head>
   <body style="
     background-color:#000000;
-    margin-left: 300px;
-    margin-right: 300px;">
+    padding: 0px 300px;">
     <header>
       <section style="
       color:#f5f5f7;
@@ -50,27 +57,29 @@
       font-size: 25px;
       font-style: 'normal';
       text-align: center;
-      text-transform: uppercase;">
+      text-transform: uppercase;
+      margin-top: 20px;">
       <a href="index.html">Home</a>
       <a href="ContactUs.html">Contact Us</a>
       <a href="Reviews.html">Reviews</a>
       <a href="PropClock.html">Prop Clock</a>
       </section>
         <h2 style="
-        color:#f5f5f7 ;
+        color:#f5f5f7;
         font-family: 'noto-sans','sans-serif';
         font-style: normal;
         font-weight: 300;
         font-size: 75px;
         text-align: center;
         text-transform: uppercase;">Prop Clock</h2>
+      }
           <p style="
           color:#f5f5f7;
           font-family: 'noto-sans','sans-serif';
           font-weight: 100;
           font-size: 20px;
           font-style: normal;
-          text-align: center;">Prop Clock was inspired by the play 2:22 [1]. Prop Clock is a free programmable 7-segment display in a web page. All you need to use it is a browser and a screen. It offers:</p>
+          text-align: center;">Prop Clock was inspired by the play 2:22<a href"https://222aghoststory.com/">[1]</a>. Prop Clock is a free programmable 7-segment display in a web page. All you need to use it is a browser and a screen. It offers:</p>
 
  <p style="
  color:#f5f5f7;
@@ -107,34 +116,12 @@ font-family: 'noto-sans','sans-serif';
 font-weight: 100;
 font-size: 20px;
 font-style: normal;
-text-align: center;">Note that beeps will not sound unless you have clicked the screen. There is a good reason for this [2].</p>
+text-align: center;">Note that beeps will not sound unless you have clicked the screen. There is a good reason for this<a href"https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide">[2]</a>.</p>
 <p style="
 color:#f5f5f7;
 font-family: 'noto-sans','sans-serif';
 font-weight: 100;
 font-size: 20px;
 font-style: normal;
-text-align: center;">Warning: Screen burn [3] is a consideration. Extended usage could permanently damage a screen. Do not use Prop Clock as a screensaver!</p>
-
-<p style="
-color:#f5f5f7;
-font-family: 'noto-sans','sans-serif';
-font-weight: 100;
-font-size: 20px;
-font-style: normal;
-text-align: center;">[1] https://222aghoststory.com/</p>
-<p style="
-color:#f5f5f7;
-font-family: 'noto-sans','sans-serif';
-font-weight: 100;
-font-size: 20px;
-font-style: normal;
-text-align: center;">[2] https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide</p>
-<p style="
-color:#f5f5f7;
-font-family: 'noto-sans','sans-serif';
-font-weight: 100;
-font-size: 20px;
-font-style: normal;
-text-align: center;">[3] https://en.wikipedia.org/wiki/Screen_burn-in</p>
+text-align: center;">Warning: Screen burn<a href"https://en.wikipedia.org/wiki/Screen_burn-in">[3]</a> is a consideration. Extended usage could permanently damage a screen. Do not use Prop Clock as a screensaver!</p>
     </header>
